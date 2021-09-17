@@ -1,0 +1,946 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-img {
+    color: black;
+    margin-left: 100px;
+}
+
+.nav-icon {
+    color: #000;
+    margin-right: 100px;
+}
+
+.nav-icon:hover {
+    color: #e71a23;
+}
+
+.hero {
+    height: 767px;
+    background-color: #000;
+    color: #fff;
+    background-image: url(assets/images/hero-bg.jpg);
+    overflow: visible;
+    background-position: 50% 0%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.hero-text {
+    margin-top: 50px;
+}
+
+.hero h4 {
+    font-size: 3.75rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.hero hr {
+    width: 601px;
+    height: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+
+.hero-icons {
+    display: flex;
+    flex-direction: row;
+    width: 601px;
+    justify-content: space-between;
+}
+
+.hero-icons h5 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-icons img {
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    position: relative;
+    top: 40px;
+}
+
+.cleaning {
+    position: relative;
+    right: 50px;
+}
+
+.plumbing {
+    position: relative;
+    right: 100px;
+}
+
+.services {
+    height: 532px;
+    color: #000;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services h5 {
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    color: #999;
+    line-height: 1.2;
+    bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.services h1 {
+    position: relative;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services p {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 780px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.services a {
+    position: relative;
+    top: 35px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    line-height: 1.1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 18px 36px;
+    color: #fff;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    border-radius: 3px;
+}
+
+.services a:hover {
+    background-color: #d1161e;
+}
+
+.help {
+    height: 625px;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 150px;
+    padding-bottom: 0px;
+}
+
+.help-1 p{
+    position: relative;
+    padding: 0px 60px;
+    padding-right: 120px;
+    top: 60px;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.help-2 {
+    position: relative;
+    margin-right: 15px;
+}
+
+.help-2 h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.1;
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.help-2 h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.2;
+    color: #e71a23;
+    padding: 5px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.help-2 img {
+    position: relative;
+    top: 90px;
+}
+
+.quality {
+    background-color: #999999;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/9f710de59576552888227ee6/g.jpg);
+    height: 658px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quality-img {
+    width: 550px;
+    background-image: url(assets/images/billionphotos1079319min.png);
+    background-size: contain;
+    background-position: 50px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.quality-text {
+    /* justify-self: flex-end; */
+    align-self: center;
+    width: 627px;
+    padding-right: 50px;
+}
+
+.quality-text h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #104e92;
+    position: relative;
+    bottom: 100px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quality-text hr {
+    width: 547px;
+    height: 8px;
+    border: 1px solid #e71a23;
+    background-color: #e71a23;
+    position: relative;
+    bottom: 70px;
+}
+
+.quality-text p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: left;
+    padding-right: 150px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.quality-text a {
+    position: relative;
+    text-decoration: none;
+    font-size: 0.75rem;
+    line-height: 1.1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 18px 36px;
+    color: #fff;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    border-radius: 3px;
+}
+
+.quality-text a:hover {
+    background-color: #d1161e;
+}
+
+.multi {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+
+.multi h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.multi-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.multi-icons img {
+    width: 43px;
+    height: 43px;
+}
+
+.img-div-1, .img-div-2, .img-div-3 {
+    width: 43px;
+    height: 43px;
+    padding: 18px;
+    color: #fff;
+    background-color: #e71a23;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.multi-icons h4 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.multi-icons p {
+   font-size: 1.125rem;
+   font-style: italic; 
+   line-height: 1.6;
+   padding-right: 70px;
+   position: relative;
+    bottom: 5px;
+}
+
+.about {
+    height: 582px;
+    color: #fff;
+    background-color: #104e92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div-4 img{
+    width: 222px;
+    height: 200px;
+    padding-bottom: 12.5px;
+    padding-right: 25px;
+}
+
+.img-div-5 img {
+    width: 222px;
+    height: 200px;
+    padding-top: 12.5px;
+    padding-right: 25px;
+}
+
+.about-img {
+    position: relative;
+    left: 80px;
+}
+
+.about h6 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-text {
+    position: relative;
+    right: 40px;
+}
+
+.about h3 {
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 400;
+    padding-left: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about span {
+    font-weight: bold;
+}
+
+.todo {
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.todo h2 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 300px;
+    position: relative;
+    top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.todo p {
+    font-size: 1.875rem;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0px 360px;
+}
+
+.book-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #e71a23;
+    padding: 16px 36px;
+    border: 1px solid #e71a23;
+    border-radius: 3px;
+    position: relative;
+    right: 8px;
+}
+
+.book-link:hover {
+    background-color: #d1161e;
+}
+
+.call-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid #454545;
+    padding: 16px 53px 16px 52px;
+    border-radius: 3px;
+}
+
+.todo div {
+    position: relative;
+    bottom: 20px;
+}
+
+footer {
+    height: 142px;
+    color: #fff;
+    background-color: #333333;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 50px 490px;
+}
+
+/* Media queries for tab-view */
+@media only screen and (max-width: 991px) {
+    nav {
+        padding: 20px 0px;
+    }
+
+    .nav-img {
+        margin-left: 50px;
+    }
+    
+    .nav-icon {
+        margin-right: 50px;
+    }
+
+    nav img {
+        width: 75%;
+    }
+
+    nav i {
+        width: 70%;
+    }
+
+    .hero {
+        height: 691px;
+        background-position: 35% 0%;
+        padding-left: 70px;
+    }
+
+    .hero-text {
+        margin-top: 100px;
+    }
+    
+    .hero h4 {
+        font-size: 3rem;
+    }
+    
+    .hero h1 {
+        font-size: 5rem;
+    }
+    
+    .hero hr {
+        width: 482px;
+        margin-top: 25px;
+    }
+    
+    
+    .hero-icons {
+        width: 482px;
+    }
+    
+    .hero-icons h5 {
+        position: relative;
+        top: 65px;
+    }
+    
+    .cleaning {
+        position: relative;
+        right: 25px;
+    }
+    
+    .plumbing {
+        position: relative;
+        right: 50px;
+    }
+    
+    .services h5 {
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .services h1 {
+        position: relative;
+        bottom: 0px;
+        top: 5px;
+    }
+    
+    .services p {
+        position: relative;
+        width: 720px;
+        padding: 0px 50px;
+        top: 25px;
+    }
+
+    .services a {
+        position: relative;
+        top: 55px;
+    }
+
+    .help {
+        height: 1300px;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    
+    .help-1 img {
+        height: 450px;
+        min-width: 100%;
+    }
+
+    .help-1 p{
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    
+    .help-2 {
+        position: relative;
+    }
+    
+    .help-2 h2 {
+        position: relative;
+        left: 50px;
+    }
+    
+    
+    .help-2 h3 {
+        position: relative;
+        left: 50px;
+    }
+    
+    .help-2 img {
+        position: relative;
+        top: 70px;
+        width: 650px;
+        height: 400px;
+    }
+    
+    .quality {
+        height: 560px;
+        padding: 0px 20px;
+        padding-left: 20px;
+    }
+    
+    .quality-img {
+        width: 330px;
+        background-size: cover;
+        background-position: -50px 0px;
+        padding-right: 20px;
+    }
+    
+    .quality-text {
+        align-self: flex-end;
+        width: 396px;
+        left: 120px;
+        padding-left: 20px;
+    }
+    
+    .quality-text h2 {
+        font-size: 3.125rem;
+        position: relative;
+        bottom: 140px;
+        padding-right: 50px;
+    }
+    
+    .quality-text hr {
+        width: 336px;
+        position: relative;
+        bottom: 110px;
+    }
+    
+    .quality-text p {
+        font-size: 1.125rem;
+        padding-right: 40px;
+        position: relative;
+        bottom: 90px;
+    }
+    
+    
+    .quality-text a {
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .multi {
+        height: 574px;
+        padding: 0px 50px;
+    }
+    
+    .about {
+        height: 977px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 0px 50px;
+    }
+    
+    .img-div-4 img{
+        width: 300px;
+        height: 341px;
+        padding-bottom: 15px;
+        padding-right: 25px;
+    }
+    
+    .img-div-5 img {
+        width: 300px;
+        height: 353px;
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+    
+    .about-img {
+        left: 0px;
+    }
+    
+    .about-text {
+        right: 0px;
+        left: 25px;
+    }
+    
+    .about-text br {
+        display: none;
+    }
+
+    .about h3 {
+        font-size: 4.5rem;
+        padding-left: 0px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .todo {
+        height: 561px;
+    }
+    
+    .todo h2 {
+        padding: 0px 50px;
+    }
+    
+    .todo p {
+        padding: 0px 70px;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .todo div {
+        position: relative;
+        bottom: 30px;
+    }
+    
+    footer p {
+        padding: 50px 200px;
+    }
+}
+
+/* Media queries for mobile view */
+@media only screen and (max-width: 425px) {
+    nav {
+        padding: 20px 0px;
+    }
+
+    .nav-img {
+        margin-left: 40px;
+    }
+    
+    .nav-icon {
+        margin-right: 40px;
+    }
+
+    nav img {
+        width: 75%;
+    }
+
+    
+    .hero {
+        height: 653px;
+        background-position: 82% 50%;
+        background-size: cover;
+        padding-left: 50px;
+    }
+    
+    .hero-text {
+        position: relative;
+        top: 150px;
+    }
+    
+    .hero h4 {
+        font-size: 2.25rem;
+    }
+    
+    .hero h1 {
+        font-size: 3.625rem;
+    }
+    
+    .hero hr {
+        width: 340px;
+    }
+    
+    
+    .hero-icons {
+        display: none;
+    }
+    
+    .services {
+        height: 544px;
+    }
+    
+    .services h5 {
+        bottom: 30px;
+        text-align: center;
+    }
+    
+    .services h1 {
+        position: relative;
+        /* margin-bottom: 70px; */
+        padding: 0px 50px;
+        text-align: center;
+    }
+    
+    .services p {
+        width: 340px;
+    }
+    
+    .help {
+        height: 1050px;
+    }
+     
+    .help-1 p{
+        padding: 0px 15px;
+        padding-right: 20px;
+        top: 40px;
+    }
+    
+    .help-1 img {
+        width: 340px;
+        height: 350px;
+     }
+
+    .help-2 {
+        position: relative;
+        margin-right: 15px;
+    }
+    
+    .help-2 h2 {
+        font-size: 1.875rem;
+        left: 20px;
+    }
+    
+    
+    .help-2 h3 {
+        font-size: 1.5rem;
+        left: 20px;
+        padding: 0px 0px;
+    }
+    
+    .help-2 img {
+       width: 340px;
+       height: 350px;
+       padding-left: 5px;
+       top: 40px;
+    }
+    
+    .quality {
+        height: 996px;
+        flex-wrap: wrap;
+    }
+    
+    .quality-img {
+        width: 340px;
+        height: 436px;
+        background-size: 90%;
+        background-position: 45px 0px;
+        position: relative;
+        
+    }
+    
+    .quality-text {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    
+    .quality-text hr {
+        width: 320px;
+    }
+   
+    
+    .multi {
+        height: 1100px;
+    }
+     
+    .multi h1 {
+        bottom: 0px;
+        top: 10px;
+    }
+    
+    .multi-icons {
+        flex-wrap: wrap;
+        position: relative;
+        top: 80px;
+        margin-left: 0px;
+    }
+     
+    .multi-icons p {
+       padding-right: 0px;
+       padding-bottom: 120px;
+       position: relative;
+    }
+    
+    .about {
+        height: 1633px;
+    }
+    
+    .img-div-4 img{
+        width: 340px;
+        height: 292px;
+        padding: 15px 0px;
+    }
+    
+    .img-div-5 img {
+        width: 340px;
+        height: 292px;
+        padding: 15px 0px;
+    }
+   
+    .about-img {
+        position: relative;
+        top: 25px;
+    }
+    
+    
+    .about-text {
+        position: relative;
+        right: 0px;
+        left: 15px;
+        top: 30px;
+    }
+    
+    .about h3 {
+        font-size: 3.75rem;
+    }
+     
+    .todo {
+        height: 835px;
+    }
+   
+    .todo h2 {
+        padding: 0px 0px;
+    }
+     
+    .todo p {
+        padding: 0px 50px;
+    }
+    
+    .book-link {
+        display: inline-block;
+        right: 0px;
+        bottom: 15px;
+        left: 5px;
+        padding: 16px 55px;
+    }
+
+    .call-link {
+        display: block;
+        position: relative;
+        top: 30px;
+        padding: 16px 73px 16px 71px;
+    }
+    
+    footer p {
+        padding: 50px 40px;
+    }
+}
